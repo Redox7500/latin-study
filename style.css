@@ -3,15 +3,12 @@
 
 :root
 {
-    /* --background-1:#14141f; */
     --background-1:#14141a;
-    /* --background-2:#29293d; */
     --background-2:#292933;
     --light-text:#dfdfe6;
     --dark-text:#0c0c0d;
     --correct:#7f7;
     --incorrect:#f77;
-    /* --neutral:#777; */
     --neutral:#5c5c66;
     --highlight:#37f;
     --outline-width:1px;
@@ -21,8 +18,6 @@
 
 body
 {
-    /* background-color:#12121f; */
-    /* background-color:hsl(240deg, 20%, 10%); */
     margin:0;
     background-color:var(--background-1);
 }
@@ -91,7 +86,6 @@ th[scope="row"]
 
 input[type="checkbox"]
 {
-    /* margin-left:0rem; */
     vertical-align:middle;
 }
 
@@ -106,8 +100,6 @@ input[type="text"]
     width:5rem;
     font-family:inherit;
     border-radius:0.5rem;
-    /* outline:0.5px solid #888; */
-    /* outline:0.5px solid hsl(0deg, 0%, 50%); */
     transition-duration:0.15s;
 }
 
@@ -118,20 +110,11 @@ input[type="text"]:not(.correct):focus
 
 input[type="text"].correct
 {
-    /* background-color:#9f9; */
-    /* outline-color:#8f8; */
-    /* outline-color:hsl(120deg, 100%, 70%); */
     outline-color:var(--correct);
-    /* color:#12121f; */
 }
 
 input[type="text"]:not(:focus).incorrect
 {
-    /* background-color:#f99;
-    background-color:#999; */
-    /* color:#f22; */
-    /* outline-color:#f88; */
-    /* outline-color:hsl(0deg, 100%, 70%); */
     outline-color:var(--incorrect);
 }
 
@@ -148,7 +131,6 @@ button
     font-size:larger;
     border-radius:0.5rem;
     transition:background-color 0.1s, outline-color 0.15s;
-    /* transition-duration:0.1s; */
 }
 
 button:hover
